@@ -1,0 +1,119 @@
+.wd-float-left-16{
+    float: left;
+    width: 16px;
+}
+.wd-no-top-border{
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+}
+.wd-only-bottom-border{
+    border-top-width: 0;
+    border-bottom-width: 1px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+.wd-margin-left16-top12-bottom0{
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+.wd-margin-left16-top0-bottom12{
+    margin-left: 16px;
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.wd-margin-top12{
+    margin-top: 12px;
+}
+.wd-margin-right16{
+    margin-right: 16px;
+}
+.wd-font-20 {
+    font-size: 20px
+}
+.wd-font-15 {
+    font-size: 15px
+}
+.wd-font-13 {
+    font-size: 13px
+}
+.wd-text-color-lightgray {
+    color: lightgray;
+}
+.wd-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    margin-left: 16px;
+    margin-top: 12px;
+}
+.wd-float-left{
+    float: left;
+}
+.wd-margin-left12-top12-right6-bottom2{
+    margin-left: 12px;
+    margin-top: 12px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+}
+.wd-grid-row {
+    clear: both;
+}
+.wd-content{
+    width: 506px;
+    margin: 0px 16px 12px 12px;
+}
+.wd-paded-left4{
+    padding-left: 4px;
+}
+.wd-margin-0top-0bottom{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.wd-img-e{
+    width: 504px;
+    height: 264px;
+}
+.wd-margin-left12-top12{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+.wd-front-bold{
+    font-weight: bold;
+}
+.wd-width{
+    width: 504px;
+}
+.wd-rounded-corners-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.wd-rounded-text-box-bottom{
+    margin-left: 12px;
+    width: 504px;
+    border: 1px solid;
+    border-color: rgb(47,51,54);
+    border-radius: 20px 20px 20px 20px;
+}
+.wd-icon{
+    width: 15px;
+    height: 15px;
+}
+.wd-margin-left12-top0{
+    margin-left: 12px;
+    margin-top: 0;
+}
+
+.wd-grid-col-left {
+    width: 25%;
+    float: left;
+}
+
+.wd-grid-col-left2 {
+    width: 50%;
+    float: left;
+}
+

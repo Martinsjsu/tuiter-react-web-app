@@ -1,0 +1,18 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+.wd-border-rgb {
+    border-color: rgb(47,51,54);
+}
+.wd-border-thin{
+    border-width: 1px;
+}
+.wd-border-solid {
+    border-style: solid;
+}
+.wd-text-color-white{
+    color: white;
+}
+.wd-rounded-corners-all-around{
+    border-radius: 10px;
+}
