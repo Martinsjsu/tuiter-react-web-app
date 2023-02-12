@@ -9,6 +9,10 @@
 .wd-border-rgb {
     border-color: rgb(47,51,54);
 }
+.wd-border-bottom-rgb {
+    border-bottom-width: 2px;
+    border-color: rgb(47,51,54);
+}
 .wd-border-thin{
     border-width: 1px;
 }
@@ -25,10 +29,13 @@
     color: rgb(110, 118, 125);
 }
 .wd-text-color-white{
-    color: white;
+    color: rgb(79, 99, 113);
 }
 .wd-text-color-lightgray {
     color: lightgray;
+}
+.wd-text-color-gray {
+    color: #596d7a;
 }
 .wd-rounded-corners-all-around{
     border-radius: 10px;
@@ -162,4 +169,7 @@
 }
 .wd-custom-list-group {
     padding: 0;
+}
+.wd-no-border {
+    border-width: 0;
 }
