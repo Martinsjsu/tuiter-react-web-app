@@ -18,6 +18,9 @@
 .wd-border-color-highlight {
     border-color: rgb(27,161,242);
 }
+.wd-border-color-lightgrey {
+    border-color: lightgrey;
+}
 .wd-text-color-highlight {
     color: rgb(29,161,242);
 }

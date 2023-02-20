@@ -23,7 +23,8 @@ const PostSummaryItem  = (post) => {
            </div>
            <div class="col-3">
               <img src=${post.image}
-                  class="img-fluid wd-rounded-corners-all-around"
+                  class="img-fluid"
+                  style="border-radius: 15px"
                   >
                </div>
            </div>                          
