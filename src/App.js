@@ -1,29 +1,24 @@
-import logo from './logo.svg';
+import Labs from "./labs";
 import './App.css';
+import HelloWorld from "./labs/a6/hello-world";
+import Tuiter from "./tuiter";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          CS5610 Sec6
-          <br/>
-          Assignment 1
-          <br/>
-          Martin (Shenquan) Wang
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BrowserRouter>
+          <div className='container'>
+              <Routes>
+                  <Route index
+                         element={<Labs/>}/>
+                  <Route path="/hello"
+                         element={<HelloWorld/>}/>
+                  <Route path="/tuiter/*"
+                         element={<Tuiter/>}/>
+              </Routes>
+
+          </div>
+      </BrowserRouter>
   );
 }
-
 export default App;

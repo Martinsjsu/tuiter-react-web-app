@@ -13,7 +13,6 @@ const PostItem  = (post) => {
               <i class="fa-solid fa-circle-check"></i>
               <span class="wd-font-no-bold wd-text-color-lightgray wd-font-13">@ ${post.handle} - ${post.time}</span>
             </p>
-            
             <p>
               ${post.post}
             </p>
@@ -51,8 +50,6 @@ const PostItem  = (post) => {
             <div class="col-3">
             <i class="fa-solid fa-arrow-up-from-bracket col-3"></i>
             </div>
-
-            
             </div> 
            </div>
            </div>                          
