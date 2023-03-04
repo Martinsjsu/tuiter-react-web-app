@@ -14,12 +14,18 @@ const PostItem = (
             "site": 'netflix.com',
             "comments":'4.2K',
             "retweet":'3.5K',
-            "like": '37.5K'
+            "like": '37.5K',
+            "retuit": "Somebody Famous Retuited"
         }
     }
 ) => {
     return(
         <li className="list-group-item">
+            <div className="container wd-text-color-gray wd-font-13">
+                {post.site?<i className="bi bi-arrow-repeat"></i>
+                    : ""}
+                {post.retuit}
+            </div>
             <div className="row">
                 <div className="col-2">
                     <img width={70} className="rounded-circle" src={`/images/${post.userImg}`}/>

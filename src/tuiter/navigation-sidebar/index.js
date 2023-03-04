@@ -8,50 +8,100 @@ const NavigationSidebar = () => {
     return (
         <div className="list-group">
             <a className="list-group-item">
-                <i className="bi bi-twitter"></i>
-                Tuiter
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-twitter"></i>
+                    Tuiter
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-twitter"></i>
+                </div>
             </a>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                <i className="bi bi-house-door-fill"></i>
-                Home
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-house-door-fill"></i>
+                   Home
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-house-door-fill"></i>
+                </div>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                <i className="bi bi-hash"></i>
-                Explore
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-hash"></i>
+                    Explore
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-hash"></i>
+                </div>
             </Link>
             <Link to="/" className="list-group-item">
-                <i className="bi bi-funnel-fill"></i>
-                Labs
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-funnel-fill"></i>
+                    Labs
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-funnel-fill"></i>
+                </div>
             </Link>
             <a className={`list-group-item
                     ${active === 'notifications'?'active':''}`}>
-                <i className="bi bi-bell-fill"></i>
-                Notifications
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-bell-fill"></i>
+                    Notifications
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-bell-fill"></i>
+                </div>
             </a>
             <a className={`list-group-item
                     ${active === 'messages'?'active':''}`}>
-                <i className="bi bi-envelope-open-fill"></i>
-                Messages
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-envelope-open-fill"></i>
+                    Messages
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-envelope-open-fill"></i>
+                </div>
             </a>
             <a className={`list-group-item
                     ${active === 'bookmarks'?'active':''}`}>
-                <i className="bi bi-bookmark-fill"></i>
-                Bookmarks
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-bookmark-fill"></i>
+                    Bookmarks
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-bookmark-fill"></i>
+                </div>
             </a>
             <a className={`list-group-item
                     ${active === 'lists'?'active':''}`}>
-                <i className="bi bi-list-task"></i>
-                Lists
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-list-task"></i>
+                    Lists
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-list-task"></i>
+                </div>
             </a>
             <a className={`list-group-item
                     ${active === 'profile'?'active':''}`}>
-                <i className="bi bi-person-fill"></i>
-                Profile
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-person-fill"></i>
+                    Profile
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-person-fill"></i>
+                </div>
             </a>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
-                <i className="bi bi-three-dots"></i>
-                More
+                <div className="d-none d-xl-block">
+                    <i className="bi bi-three-dots"></i>
+                    More
+                </div>
+                <div className="container  d-block d-xl-none">
+                    <i className="bi bi-three-dots"></i>
+                </div>
             </a>
         </div>
     );
