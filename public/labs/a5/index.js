@@ -8,6 +8,10 @@ let blockScoped = 5;
 const constant1 = global1
     + functionScoped
     - blockScoped;
+console.log(global1);
+console.log(functionScoped);
+console.log(blockScoped);
+console.log(constant1);
 
 console.log('Variable types');
 let numberVariable = 123;
@@ -17,6 +21,14 @@ let booleanVariable = true;
 let isNumber = typeof numberVariable;
 let isString = typeof stringVariable;
 let isBoolean = typeof booleanVariable;
+console.log(numberVariable);
+console.log(floatingPointNumber);
+console.log(stringVariable);
+console.log(booleanVariable);
+console.log(isNumber);
+console.log(isString);
+console.log(isBoolean);
+
 
 console.log('Boolean Variables');
 let true1 = true;
@@ -29,6 +41,16 @@ let true5 = floatingPointNumber !== 321.432;
 let false3 = numberVariable < 100;
 let sortaTrue = '1' == 1
 let notTrue   = '1' === 1
+console.log(true1);
+console.log(false1);
+console.log(false2);
+console.log(true2);
+console.log(true3);
+console.log(true4);
+console.log(true5);
+console.log(false3);
+console.log(sortaTrue);
+console.log(notTrue);
 
 console.log('If else');
 if(true1) {
@@ -80,9 +102,14 @@ let variableArray1 = [
     numberArray1,
     stringArray1
 ];
+console.log(numberArray1);
+console.log(stringArray1);
+console.log(variableArray1);
 
 const length1 = numberArray1.length;
 const index1 = numberArray1.indexOf(3);
+console.log(length1);
+console.log(index1);
 
 // adding new items
 numberArray1.push(6);
@@ -101,14 +128,22 @@ for (let i=0; i<stringArray1.length; i++) {
 
 const squares = numberArray1.map(square);
 const cubes = numberArray1.map(a => a * a * a);
+console.log(numberArray1);
+console.log(squares);
+console.log(cubes);
+
 
 const four = numberArray1.find(a => a === 4);
 const string3 = stringArray1.find(a => a === 'string3');
+console.log(four);
+console.log(string3);
 
 const fourIndex = numberArray1
     .findIndex(a => a === 4);
 const string3Index = stringArray1
     .findIndex(a => a === 'string3');
+console.log(fourIndex);
+console.log(string3Index);
 
 const numbersGreaterThan2 = numberArray1
     .filter(a => a > 2);
@@ -116,6 +151,10 @@ const evenNumbers = numberArray1
     .filter(a => a % 2 === 0);
 const oddNumbers = numberArray1
     .filter(a => a % 2 !== 0);
+console.log(numberArray1)
+console.log(numbersGreaterThan2);
+console.log(evenNumbers);
+console.log(oddNumbers);
 
 const five = 2 + 3;
 const result1 = "2 + 3 = " + five;
@@ -148,6 +187,7 @@ const init = () => {
 
     const getIdAttr = $("#get-id-attr");
     const id = getIdAttr.attr('id');
+    console.log('Get and set attributes')
     console.log(id);
 
     const setClassAttr = $("#set-class-attr");
