@@ -11,6 +11,7 @@ const initialProfile = {
         bio: 'Faculty, Software Engineer, AI, Space, and renewable enthusiast. Rtuits and likes are not endorsements.',
         website: 'youtube.com/???',
         location: 'San Jose, CA',
+        born: 'somewhere',
         dateOfBirth: '06/03/1992',
         dateJoined: '4/2019',
         followingCount: 123,
