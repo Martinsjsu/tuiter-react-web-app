@@ -83,16 +83,15 @@ const NavigationSidebar = () => {
                     <i className="bi bi-list-task"></i>
                 </div>
             </a>
-            <a className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <div className="d-none d-xl-block">
-                    <i className="bi bi-person-fill"></i>
+                    <i className="bi bi-hash"></i>
                     Profile
                 </div>
                 <div className="container  d-block d-xl-none">
-                    <i className="bi bi-person-fill"></i>
+                    <i className="bi bi-hash"></i>
                 </div>
-            </a>
+            </Link>
             <a className={`list-group-item
                     ${active === 'more'?'active':''}`}>
                 <div className="d-none d-xl-block">
