@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import {useDispatch} from "react-redux";
 import {likeToggle, deleteTuit} from "./tuits-reducer";
 
