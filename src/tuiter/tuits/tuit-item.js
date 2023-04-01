@@ -14,13 +14,13 @@ const TuitItem = ({tuit}) => {
                 <img width={48} height={48} className="rounded-circle d-flex" src={`/images/${tuit.image}`}/>
             </div>
 
-            <div className="col-11 mt-2 ms-2 ps-2 float-end">
-                <div className="container">
+            <div className="col-11 mt-2 ms-2 float-end">
+                <div className="container ps-8 pe-8">
                     <i className="bi bi-x-lg float-end"
                        onClick={() => deleteTuitHandler(tuit._id)}></i>
-                    <span className="wd-font-13">{tuit.userName}
-                        <i className="fa-solid fa-circle-check"></i></span>
-                    <span className="wd-font-13"> {tuit.handle} · {tuit.time}</span>
+                    <span className="wd-font-15 fw-bold">{tuit.username}</span>
+                    <i className="bi bi-check-circle-fill text-primary ms-2"></i>
+                    <span className="wd-font-13 text-muted"> {tuit.handle} · {tuit.time}</span>
                     <br/>
                     {tuit.tuit}
                     {TuitStats(tuit)}
