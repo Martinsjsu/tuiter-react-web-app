@@ -1,10 +1,16 @@
 import React from "react";
-import {useSelector} from "react-redux";
+import {useEffect} from "react";
+import {useSelector, useDispatch} from "react-redux";
 import PostSummaryItem
     from "./post-summary-item";
+import {findTuitsThunk} from "../../services/tuits-thunks";
 
 const PostSummaryList = () => {
-    const postsArray = useSelector(state => state.tuits)
+    const postsArray = useSelector(state => state.tuitsData.tuits)
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(findTuitsThunk())
+    }, [])
     return(
         <ul className="list-group">
             {
